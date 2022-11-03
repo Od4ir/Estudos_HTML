@@ -1,0 +1,45 @@
+<!-- 
+
+<HTML>
+	<HEAD>
+	<TITLE>Escola Virtual - HTML básico</TITLE>
+	</HEAD>
+<BODY>
+	<img src="imagem_menu.gif" usemap="#menu" border="0">
+
+	<map name="menu">
+		<area shape="rect" coords="11,13,115,52" href="http://www.fb.org.br" alt="Item 1">
+		<area shape="rect" coords="11,55,114,94" href="http://www.ev.org.br" alt="Item 2">
+		<area shape="rect" coords="11,99,114,137" href="http://www.educacao.org.br" alt="Item 3">
+		<area shape="rect" coords="11,142,114,180" href="http://www.google.com.br" alt="Item 4">
+		<area shape="rect" coords="11,184,115,221" href="http://www.fb.org.br" alt="Item 5">
+	</map>
+</BODY>
+
+</HTML> 
+
+Acima temos um exemplo de como usar imagens mapeadas.
+    <img src="Endereço da imagem" usemap="#nomedomapeamento" border="0">
+
+    Usamos o parâmetro "usemap="nomedomapeamento"" para definir como vamos mapear a
+    imagem. Lembrando que este mapeamento é, basicamente, linkar diferentes partes 
+    da imagem em diferentes endereços.
+
+    Depois, temos que descrever o mapeamento que estamos adotando:
+
+    <map name="nomedomapeamento">
+        E agora, a descrição de como será o link, tamanho, formato de cada área da 
+        imagem, usando a tag <area>
+
+        <area shape="formato" coords="x0, y0, x1, y1..." href="URL">
+        Para forma temos:
+            rect - Retângulos (Recebem 4 coordenadas, vértice superior esquerdo e
+            vértice inferior direito);
+            circle - Círculos (Recebem 3 coordenadas, x, y e r, com (x,y) represen-
+            tando o centro do círculo e r o raio);
+            polygon - Polígonos (Que recebem um número de acordo com os vértices do
+            polígono es)
+
+    </map>
+
+-->
