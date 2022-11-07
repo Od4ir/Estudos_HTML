@@ -1,0 +1,89 @@
+<html>
+    <head>
+        <title>
+            Teste 10 - Formulários
+        </title>
+    </head>
+
+    <body>
+        <form method="get">
+            <p> Nome: 
+            <input type=text name="nome" SIZE="25" maxlength="50"> </p>
+            <p> Estado:
+            <input type=text name="estado" SIZE="2" value="UF" maxlength="2"> </p>
+            <p> Senha: 
+            <input type=password SIZE="8" maxlength="8"> </p>
+        </form>
+    </body>
+</html>
+
+<!--
+    FORMULARIOS -----------------------------------------------------------------
+    Formulários são uma das formas que o usuário tem para interagir com o site.
+    Neles, o usuário consegue adicionar informações para executar tarefas como
+    uma pesquisa, um cadastro, etc. O formulário não é o ressponsável pelo pro-
+    cessamento dos dados, apenas pelo registro dos mesmos. 
+    Os responsáveis pelo processamento dos dados inseridos são os scripts. 
+    
+    TAG FORM --------------------------------------------------------------------
+    A tag <form> pode receber vários atributos. São eles:
+        "ACTION=url" -  A url é a url do script que processará os dados do formu-
+        lário;
+            Exemplo: <form action="mailto:endereco@email.com">
+            <form action="processa.php"
+
+        "METHOD=metodo" -  Os metodos possíveis são "post" e "get", eles especi-
+        ficam a forma que os dados serão enviados para o servidor web onde serão 
+        processados. 
+        Se for escolhido o "post", o navegador envia diretamente o fluxo de dados
+        para o script CGI do servidor web;
+        Caso escolha o "get", o fluxo de dados será anexado a url do comando "ac-
+        tion";
+        O primeiro permite um maior envio de dados, já o segundo é mais voltado 
+        quando as informações a serem enviadas são mais sucintas, já que elas se-
+        rão anexadas na url;
+
+    TAG INPUT -------------------------------------------------------------------
+
+    Temos 4 tipos de entrada diferentes:
+        1 - Texto; Envio de texto;
+        2 - Senha; Aparecem as bolinhas;
+        3 - Escolha única; Permite a seleção de uma unica opção;
+        4 - Seleção; Permite a seleção de várias opções;
+
+    Essa tag permite criar os diferentes tipos de entrada para o formulário e con-
+    ta com vários atributos. São esses:
+        TYPE - Especifica o tipo de entrada, o padrão é texto;
+        VALUE - Especifica o valor inicial do formulário, é opcional exceto quando
+        a entrada é do tipo "radio" (Escolha de única opção) ou "checkbox";
+        NAME - Nomeia cada campo do formulário, para o processamento dos dados pelo
+        script;
+        MAXLENGHT - Tamanho máximo de caracteres que cada campo pode receber, no ca-
+        so dos campos de texto e senha;
+        SRC -  Quando o type for "image", este atributo permite determinar o endere-
+        ço da imagem;
+        CHECKED - Quando o type é "radio" ou "checkbox", este atributo indica que o 
+        botão esta selecionado;
+        SIZE - Especifica o tamanho inicial do controle em pixels, mas também pode 
+        indicar o número de caracteres quando o type for texto ou password;
+    
+    Vamos determinar quais valores cada um dos parâmetros acima pode receber:
+    TYPE:
+        -Image;
+        -File;
+        -Reset; - Botão de reset que limpa todos os campos;
+        -Text;
+        -Password;
+        -Button;
+        -Submit;
+        -Radio;
+        -Checkbox;
+        -Hidden; - Controle oculto;
+
+
+
+
+
+
+
+-->
