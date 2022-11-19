@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 9 - Citações e Códigos</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-Fonte</h2>
+    <p>O comadno <code>document.getElementById('teste')</code> é escrito em linguagem JavasScript. </p>
+
+    <code>
+        <pre>
+    num = int(input('Digite um número:'))
+    if num % 2 == 0:
+        print("O número {num} é PAR")
+    else:
+        print("O número {num} é ÍMPAR)
+    print("Fim do Programa.")
+        </pre>
+    </code>
+
+    <!-- Essa tga <code> serve para utilizar uma fonte monoespaçada, uma fonte cujo espaço ocupado por cada caractere, inclusive o espaço, ocupa o mesmo tamanho. -->
+
+    <!-- Tag <pre> de pré-formatado permite exibir no navegador o texto da mesma forma que ele foi digitado no arquivo html.-->
+
+    <!-- Dica - Para arrumar a identação do código, você pode pressionar shift + tab para que o texto  selecionado retorne o avanço que ele deu. Já para fazer todo o texto avançar, selecione-o e pressione somente a tecla tab. -->
+
+    <h2>Citações Simples</h2>
+    <p>Como diria o pai de um amigo: <q>O computador é um burro muito rápido.</q></p>
+
+    <!-- A tag <q> indica quote, citação, e ela dá sentido. É diferente de utilizar somente as aspas.-->
+
+    <h2>Citações Completas</h2>
+    <p>Segundo o pensador Paulo Freire: </p>
+    <blockquote cite="https://www.pensador.com/autor/paulo_freire/">
+        A alegria não chega apenas no encontro do achado, mas faz parte do processo da busca. E ensinar e aprender não podem dar-se fora da procura, fora da boniteza e da alegria.
+    </blockquote>
+
+    <!-- Tal tag <blockquote> faz um recúo de parágrafo e permite você adicionar o atributo "cite" para indicar de onde aquela citação veio. Ela não muda nada visualmente.-->
+
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="Hyper Text Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+
+    <!-- Faz com que quando você passa o mouse em cima da abreviatura. seja exibido um texto indicando o que significa a mesma. -->
+</body>
+</html>

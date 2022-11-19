@@ -13,3 +13,5 @@ Dica 4 - Para escrever uma tag com < e > em um texto podemos usar &lt; para repr
 Dica 5 - Pressionando ctrl + space dentro das aspas do atributo src da tag <img>, surge uma lista dos arquivos presentes na pasta.
 
 Dica 6 -  Para gerar textos aleatórios para testar basta fazer <p> loremX </p> com X sendo algum número de palavras que você deseja que seu texto possua.
+
+Dica 7 - Para arrumar a identação do código, você pode pressionar shift + tab para que o texto  selecionado retorne o avanço que ele deu. Já para fazer todo o texto avançar, selecione-o e pressione somente a tecla tab.
