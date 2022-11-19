@@ -1,0 +1,15 @@
+>>>   DICAS   <<<
+
+Dica 0 -Antes de começar a escrever o arquivo html digite ! e pressione enter para preencher o cabeçalho inicial básico do html5. Lmebre-se de mudar a língua para pt-br se estiver desenvolvendo um site em português.
+
+Dica 1 - Caso deseje colocar uma patte do texto entre duas tags, "envelopar" o texto, pressione ctrl + shif + p, toque na opção "Emmet: Envelope com a abreviatura" e digite a tag que deseja utilizar;
+
+Dica 2 - Aperte ALT + Z ler melhor o conteúdo (Word Wrap - Quebra de Linha);
+
+Dica 3 -  Para colocar uma <tag> basta digitar os caracteres da tag e pressionar enter;
+
+Dica 4 - Para escrever uma tag com < e > em um texto podemos usar &lt; para representar o < e &gt; para representar o > (lt - Less Than e gt - Greater then);
+
+Dica 5 - Pressionando ctrl + space dentro das aspas do atributo src da tag <img>, surge uma lista dos arquivos presentes na pasta.
+
+Dica 6 -  Para gerar textos aleatórios para testar basta fazer <p> loremX </p> com X sendo algum número de palavras que você deseja que seu texto possua.
