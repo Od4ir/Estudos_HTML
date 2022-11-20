@@ -15,3 +15,5 @@ Dica 5 - Pressionando ctrl + space dentro das aspas do atributo src da tag <img>
 Dica 6 -  Para gerar textos aleatórios para testar basta fazer <p> loremX </p> com X sendo algum número de palavras que você deseja que seu texto possua.
 
 Dica 7 - Para arrumar a identação do código, você pode pressionar shift + tab para que o texto  selecionado retorne o avanço que ele deu. Já para fazer todo o texto avançar, selecione-o e pressione somente a tecla tab.
+
+Dica 8 - Para editar várias partes do texto ao mesmo tempo, meio que multiplicando o ponteiro dos caracteres, segure a tecla "alt" e clique nos locais onde dessa deixar o ponteiro dos caracteres.
