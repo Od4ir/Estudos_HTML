@@ -2,7 +2,7 @@
 
 Dica 0 -Antes de começar a escrever o arquivo html digite ! e pressione enter para preencher o cabeçalho inicial básico do html5. Lmebre-se de mudar a língua para pt-br se estiver desenvolvendo um site em português.
 
-Dica 1 - Caso deseje colocar uma patte do texto entre duas tags, "envelopar" o texto, pressione ctrl + shif + p, toque na opção "Emmet: Envelope com a abreviatura" e digite a tag que deseja utilizar;
+Dica 1 - Caso deseje colocar uma parte do texto entre duas tags, "envelopar" o texto, pressione ctrl + shif + p, toque na opção "Emmet: Envelope com a abreviatura" e digite a tag que deseja utilizar;
 
 Dica 2 - Aperte ALT + Z ler melhor o conteúdo (Word Wrap - Quebra de Linha);
 
