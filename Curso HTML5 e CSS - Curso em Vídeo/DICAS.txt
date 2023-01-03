@@ -17,3 +17,5 @@ Dica 6 -  Para gerar textos aleatórios para testar basta fazer <p> loremX </p> 
 Dica 7 - Para arrumar a identação do código, você pode pressionar shift + tab para que o texto  selecionado retorne o avanço que ele deu. Já para fazer todo o texto avançar, selecione-o e pressione somente a tecla tab.
 
 Dica 8 - Para editar várias partes do texto ao mesmo tempo, meio que multiplicando o ponteiro dos caracteres, segure a tecla "alt" e clique nos locais onde dessa deixar o ponteiro dos caracteres.
+
+Dica 9 - Caso necessite retornar uma pasta na hora de escrever algum endereço, você pode colocar ../, esse comando retorna uma pasta. Como exemplo, veja os endereços utilizados na lista de exercícios na pasta Lista Exercícios. Caso queira retornar uma pasta e acessar outra basta escrever ../ e pressionar ctrl + espaço para aparecerem as opções.  
