@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 33 - Colocando Áudio no Site</title>
+</head>
+<body>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Vamos reproduzir áudios em HTML5:</p>
+    <P>N2:</P>
+    <audio src="Musicas/N2_Od4rt.m4a" controls autoplay loop></audio>
+    <p>No Notes:</p>
+    <audio src="Musicas/No_Notes_Od4rt.mp3" controls autoplay></audio>
+
+    <!-- Perceba que ambos os formatos funcionam normalmente. -->
+    <!-- MP3 WAV OGG são os formatos mais comuns para rodarem em diferentes navegadores. -->
+
+    <p>Outra forma de reproduzir áudios em HTML5 é da seguinte maneira, utilizando as tags &lt;audio&gt; e &lt;source&gt;.</p>
+
+    <audio preload="metadata" autoplay controls>
+        <source src="Musicas/No_Notes_Od4rt.mp3" type="audio/mpeg">
+        <source src="Musicas/No_Notes_Od4rt.m4a" type="audio/mpeg4-generic">
+        <source src="Musicas/No_Notes_Od4rt.ogg" type="audio/ogg">
+        <source src="Musicas/No_Notes_Od4rt.wav" type="audio/wav">
+        <p>Aúdio não pode reproduzido pelo seu navegador, tente baixá-lo <a href="Musicas/No_Notes_Od4rt.mp3" download="No_Notes_Od4rt.mp3">aqui.</a> </p>
+    </audio>
+
+    <!-- <p>Aúdio não pode reproduzido pelo seu navegador, tente baixá-lo <a href="Musicas/No_Notes_Od4rt.mp3" download="No_Notes_Od4rt.mp3">aqui.</a> </p> -->
+
+    <!-- Acima temos apenas exemplos, já que não existem os arquivos na pasta em todos os formatos colocados acima. Este formato de adição do áudios funciona como um "if else", caso o primeiro formato rode, perfeito, se não, ele tenta o próximo e assim por diante. -->
+
+    <!-- Para áudio, utilizamos o "source src". Para descobrir o que colocar em type basta utilizar o site linkado na dica 10 no arquivo DICAS.txt, ou digitar no Google "media type -formato desejado-".  -->
+    
+</body>
+</html>
