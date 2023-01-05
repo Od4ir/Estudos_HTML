@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 34 - Formatos de Video para o Site</title>
+</head>
+<body>
+    <!-- Os padrões de formato de arquivo de vídeo mais comuns de serem compatíveis com a maior parte dos navegadores são:
+        - MP4 / M4V
+        - WEBM
+        - OGV
+    O ideal é ter o vídeo em diferentes formatos para utilizar a estrutura do source. 
+    -->
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo será hospedado no meu próprio servidor. </p>
+
+    <!--<video src="Videos/meu-video.webm" width="500" controls></video> -->
+
+    <video width="500" poster="Imagens/limoes-capa.png" controls>
+        <source src="Videos/meu-video.mp4" type="video/mp4">
+        <source src="Videos/meu-video.m4v" type="video/mp4">
+        <source src="Videos/meu-video.webm" type="video/webm">
+        <source src="Videos/meu-video.ogv" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos. </p>
+    </video>
+
+    <!-- Esse tipo de inserção de vídeos, no qual o vídeo fica armazenado no próprio servidor do site, pode não ser muito eficiente dependendo do tamanho do vídeo, quantidade de acessos ao site, entre outros aspectos. Uma outra forma é inserir sites a partir de outro serviço de hospedagem de vídeos, como o Youtube.  -->
+
+    <h1>Inserindo vídeos a partir do Youtube</h1>
+    <!-- Basta tocar no botão de compartilhar do vídeo no Youtube e selecionar a opção de "Incorporar".-->
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Yw6u6YkTgQ4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos a partir do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/414526528?h=6147612cfa&byline=0&portrait=0" width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+    
+</body>
+</html>
