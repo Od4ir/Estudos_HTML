@@ -23,3 +23,5 @@ Dica 9 - Caso necessite retornar uma pasta na hora de escrever algum endereço, 
 Dica 10 - Site: https://www.iana.org/assignments/media-types/media-types.xhtml para verificar comandos de download para diferentes tipos de arquivos. 
 
 Dica 11 - Site para obter imagens e vídeos de graça: https://www.pexels.com/pt-br/;
+
+Dica 12 - Ctrl + CLique - Quando digitar o nome de um arquivo, basta segurar o botão Ctrl e clicar com o mouse acima desse nome para abrir/criar o arquivo. 
