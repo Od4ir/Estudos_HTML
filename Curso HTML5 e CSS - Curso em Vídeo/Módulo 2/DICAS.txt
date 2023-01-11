@@ -6,3 +6,7 @@ Dica 3 - Criando Paletas de Cores 3.0: https://coolors.co/ ;
 
 Dica 4 - Utilizar a extensão do Google, disponível na Web Store, chamada Color Zilla para conseguir selecionar cores diretamente a partir do navegador. Se estiver no FireFox, basta buscar por mais ferramentas e utilizar o seletor de cores. 
 
+Dica 5 - Sempre que criar um arquivo .css colocar @charset "UTF-8"; para evitar complicações com caracteres especiais. 
+
+Dica 6 -  Para fazer comentário em um arquivo .css utiliza-se: /* */;
+
