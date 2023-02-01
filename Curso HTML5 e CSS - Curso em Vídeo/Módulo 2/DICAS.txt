@@ -11,3 +11,5 @@ Dica 5 - Sempre que criar um arquivo .css colocar @charset "UTF-8"; para evitar 
 Dica 6 -  Para fazer comentário em um arquivo .css utiliza-se: /* */;
 
 Dica 7 - Para verificar quais combinações de fontes são mais "safe" - https://www.w3schools.com/cssref/css_fonts_fallbacks.php ;
+
+Dica 8 - Google Fonts - https://fonts.google.com/ - Para obter as fontes utilizadas no site;
