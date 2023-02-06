@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(236, 233, 41);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: blue;
+}
+/* Não é necessário especificar o tipo da tag que deseja personalizar de maneira individual;
+    >>> Em HTML id= /// Em CSS # ;
+    >>> Em HTML class= /// Em CSS . ;
+*/
+h1#johny {
+    text-align: center;
+    background-color: coral;
+    font-size: 3em;
+}
+
+h2 {
+    color: blueviolet;
+}
