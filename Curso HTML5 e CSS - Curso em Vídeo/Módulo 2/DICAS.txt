@@ -15,3 +15,11 @@ Dica 7 - Para verificar quais combinações de fontes são mais "safe" - https:/
 Dica 8 - Google Fonts - https://fonts.google.com/ - Para obter as fontes utilizadas no site;
 
 Dica 9 - DaFont - https://www.dafont.com/pt/ - Outro site para obter fontes;
+
+Dica 10 - Extensão - Fonts Ninja (Google) - Para capturar fontes de sites (Quando a fonte está no formato de texto);
+
+Dica 11 - Capturando fontes presentes em imagens:
+    Site 1 - https://www.whatfontis.com/ ;
+    Site 2 - https://www.fontsquirrel.com/ ;
+    Site 3 - https://www.myfonts.com/?gclid=Cj0KCQiA54KfBhCKARIsAJzSrdqJgvHePoXltMuLEGZ6UiIW580mieyN0qGHqlQeqJJGNrYWJoe6yrQaAt0REALw_wcB ;
+
