@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 15 - Aula 04 - Pseudo-elementos em CSS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none; /* Para retirar o sublinhado; */
+            font-weight: bold;
+        }
+
+        a:visited { /* Para determinar as características do link após ser visitado; */
+            color: deeppink; 
+        }
+        a:hover { /* Para quando o mouse passar em cima do link; */
+            color:forestgreen;
+            text-decoration: underline;
+        }
+        a:active { /* Para quando se clica no link; */
+            color:yellowgreen;
+        }
+
+        /*Enquanto as pseudo-classes (:) referem-se ao estado dos elementos, os pseudo-objetos (::) referem-se ao conteúdo periférico do elemento; */
+
+        a::after {
+            content: "[link]";
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+        .maisusado {
+            color: rgb(82, 9, 82);
+            background-color: rgba(128, 255, 0, 0.459);
+        }
+
+        .maisusado::after {
+            content: "[link]☀";
+            color: rgb(150, 150, 15); 
+        }
+
+        /* Resumo de Símbolos:
+            #  = id;
+            .  = class;
+            :  = psudo-class;
+            :: = pseudo-element;]
+            >  = children;
+        */
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a target="_blank" href="https://uspdigital.usp.br/jupiterweb/">Júpiter Web</a></li>
+        <li><a target="_blank" href="https://edisciplinas.usp.br/acessar/" class="maisusado">Moodle USP</a></li>
+        <li><a target="_blank" href="https://bcc.ime.usp.br/matrusp/">MatrUSP</a></li>
+    </ul>
+    
+</body>
+</html>
