@@ -26,3 +26,5 @@ Dica 11 - Capturando fontes presentes em imagens:
 Dica 12 - Para colocar "class" ou "id" em uma determinada parcela do texto que está dentro de uma tag (Ou seja, em apenas uma parte do conteúdo que está dentro da tag e não todo ele) basta envelopar com a tag <span>;
 
 Dica 13 - Site para símbolos do HTML5 - https://www.blogson.com.br/lista-de-simbolos-do-html-5/ ;
+
+Dica 14 - Para editar melhor as caixas pode-se utilizar o DevTools no navegador, disponível ao clicar com o botão direito e selecionar a opção inspecionar; 
