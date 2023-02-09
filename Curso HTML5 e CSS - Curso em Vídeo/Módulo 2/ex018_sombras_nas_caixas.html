@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capítulo 16 - Aula 4 - Grouping Tags em HTML5</title>
-    <!-- Basicamente um grande exemplo de tudo que vimos até agora; -->
+    <title>Capítulo 16 - Aula 05 - Sombras nas Caixas</title>
     <style>
+        /* Vamos utilizar o mesmo exemplo de site constrúido anteriormente para enteder a aplicação de sombras nas caixas;*/
         body {
             font-family: Georgia, 'Times New Roman', Times, serif;
             background-color: violet;
@@ -21,6 +21,8 @@
             background-color: rgba(216, 112, 147, 0.534);
             padding: 3px;
             text-align: center;
+            box-shadow: 2px 2px 6px blueviolet;
+            /* O primeiro parâmetro indica o deslocamento horizontal, o segundo o deslocamento vertica, o terceiro indica a dispersão da sombra e o quarto é a cor; */
         }
         nav > a {
             text-decoration: none;
@@ -49,12 +51,14 @@
             color: white;
             text-align: center;
             padding: 2px;
+            margin: 4px;
+        }
+        footer > p {
             margin: 0px;
         }
     </style>
 </head>
 <body>
-    <!-- Grouping Tags: <div> & <span>; -->
     <header> <!-- Cabeçalho -->
         <h1>Meu Site</h1>
         <nav>
@@ -90,5 +94,6 @@
         <p>Desenvolvido por Od4ir</p>
 
     </footer>
+    
 </body>
 </html>
