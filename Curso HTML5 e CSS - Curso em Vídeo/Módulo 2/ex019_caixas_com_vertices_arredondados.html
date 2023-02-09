@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capítulo 16 - Aula 06 - Cixas com Vérices Arredondados</title>
+    <style> 
+        /* Vamos utilizar o mesmo exemplo de site constrúido anteriormente para enteder como fazer o arredondamento das caixas; Vamos fazer no <main>; Confira também a bola feira após o <footer>; */
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            background-color: violet;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: rgba(216, 112, 147, 0.534);
+            padding: 3px;
+            text-align: center;
+            box-shadow: 2px 2px 6px blueviolet;
+        }
+        nav > a {
+            text-decoration: none;
+            color: purple;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+            color:rgba(255, 255, 0, 0.692);
+        }
+        main {
+            background-color: rgb(249, 184, 255);
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px; 
+            /* Para obter o efeito de arredondamento das pontas basta utilizar o "border-radius". Também é possível especificar a medida de cada uma das bordas. Com 4 valores ou 2 valores; */
+        }
+        article {
+            background-color: rgba(255, 255, 0, 0.692);
+        }
+        article > aside {
+            background-color: rgba(138, 138, 18, 0.596);
+            text-align: right;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.192);
+            color: white;
+            text-align: center;
+            padding: 2px;
+            margin: 4px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin:auto;
+            border-radius: 25px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main> <!-- Conteúdo Principal -->
+        <section id="assuntos">
+            <p>Moda Estudos Arte Política</p>
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Evertything about Lauren</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae molestias maiores architecto officia vero minima ipsum cumque esse fuga est omnis, laudantium magni iure magnam quos aperiam soluta, ut nobis.</p>
+                <aside>
+                    <p>Artigo escrito por Od1;</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer> <!-- Rodapé -->
+        <p>Desenvolvido por Od4ir</p>
+    </footer>
+    <div id="bola">
+
+    </div>
+    
+</body>
+</html>
