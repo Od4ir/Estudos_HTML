@@ -28,3 +28,5 @@ Dica 12 - Para colocar "class" ou "id" em uma determinada parcela do texto que e
 Dica 13 - Site para símbolos do HTML5 - https://www.blogson.com.br/lista-de-simbolos-do-html-5/ ;
 
 Dica 14 - Para editar melhor as caixas e seus atributos como tamanho, cor, sombra, etc., pode-se utilizar o DevTools no navegador, disponível ao clicar com o botão direito e selecionar a opção inspecionar; 
+
+Dica 15 - Site para realizar o planejamento do site: https://mockflow.com/ ;
