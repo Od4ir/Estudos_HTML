@@ -30,3 +30,5 @@ Dica 13 - Site para símbolos do HTML5 - https://www.blogson.com.br/lista-de-sim
 Dica 14 - Para editar melhor as caixas e seus atributos como tamanho, cor, sombra, etc., pode-se utilizar o DevTools no navegador, disponível ao clicar com o botão direito e selecionar a opção inspecionar; 
 
 Dica 15 - Site para realizar o planejamento do site: https://mockflow.com/ ;
+
+Dica 16 - Ferramenta de Extensão do Google para ver o site em diferentes tamanhos de tela - Window Resizer; (Basta instalar a extensão na Web Store do Google);
