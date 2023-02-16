@@ -31,4 +31,4 @@ Dica 14 - Para editar melhor as caixas e seus atributos como tamanho, cor, sombr
 
 Dica 15 - Site para realizar o planejamento do site: https://mockflow.com/ ;
 
-Dica 16 - Ferramenta de Extensão do Google para ver o site em diferentes tamanhos de tela - Window Resizer; (Basta instalar a extensão na Web Store do Google);
+Dica 16 - Ferramenta de Extensão do Google para ver o site em diferentes tamanhos de tela - Window Resizer; (Basta instalar a extensão na Web Store do Google). 
